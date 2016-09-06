@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Box Draw</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <h1> Etch-a-sketch! </h1>
+    <h2> Enter dimensions for a custom grid size: </h2>
+    <div id="dimInputs">
+      <div id="height">
+        <p> height (1-90): </p>
+        <input id="heightBox"></input>
+      </div>
+      <div id="width">
+        <p> width (1-90): </p>
+        <input id="widthBox"></input>
+        <button id="goButton"> Go </button>
+      </div>
+    </div>
+    <div id="boxContainer"></div>
+    <button id = "resetButton"> Reset </button>
+  </body>
+</html>
