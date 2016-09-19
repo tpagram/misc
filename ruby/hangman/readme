@@ -1,0 +1,3 @@
+Command-line Hangman game. Run with 'ruby hangman.rb'
+
+Has save and load functionality. 'save' to save and 'load' to load. Instructions are given in-game.

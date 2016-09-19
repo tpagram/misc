@@ -1,3 +1,6 @@
+#Command-line Mastermind game. Run with 'ruby mastermind.rb'.
+#Instructions inside. 
+
 class Mastermind
 	def initialize(colours, turns, code_length)
 		#Generate secret code
